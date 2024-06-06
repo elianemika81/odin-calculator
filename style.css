@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 110px;
+    padding-top: 20px;
+    background-color: #8693AB;
+    font-family: 'Digital-7', monospace; 
+    text-align: center;
+    color: #212227;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #b3b2b2;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+#calculator {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 25px;
+    padding: 20px;
+    background-color: #8693ab;
+    border-radius: 10px;
+}
+
+#display {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #f7f7f7;
+    width: 95%;
+    min-height: 100px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 12px;
+    padding: 10px;
+    font-family: 'Digital-7', monospace; 
+    font-size: 30px;
+}
+
+#display2 {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#buttons {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+}
+  
+button {
+    width: 60px;
+    height: 50px;
+    background-color: #BDD4E7;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 22px;
+    margin: 10px;
+    border: 2px solid #0f0f0f;
+}
+  
+button:hover {
+    background-color: #eee;
+}
+  
+button:active {
+    background-color: #ccc;
+}
+
+#divide {
+    grid-column: 4;
+}
+  
+#clear {
+    background-color: #ff9900;
+    color: #fff;
+}
+  
+#clear:hover {
+    background-color: #ff6600;
+}
+  
+#equals {
+    grid-column: 4;
+    background-color: #4CAF50;
+    color: #fff;
+}
+  
+#equals:hover {
+    background-color: #3e8e41;
+}
+
+footer {
+    background-color: #8693AB;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Digital-7', monospace; 
+    color: white;
+    position: fixed;
+    bottom: 0; 
+    width: 100%; 
+}
